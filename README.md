@@ -1,6 +1,6 @@
 # "The Elements of Statistical Learning" Notebooks
 Reproducing examples from the "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani and Jerome Friedman with Python and its popular libraries: 
-**numpy**, **math**, **scipy**, **sklearn**, **pandas**, **tensorflow**, **statsmodels**, **sympy**, **catboost**, **pyearth**, **mlxtend**. Almost all plotting is done using **matplotlib**, sometimes using **seaborn**. 
+**numpy**, **math**, **scipy**, **sklearn**, **pandas**, **tensorflow**, **statsmodels**, **sympy**, **catboost**, **pyearth**, **mlxtend**, **cvxpy**. Almost all plotting is done using **matplotlib**, sometimes using **seaborn**. 
 
 ## Examples
 The documented Jupyter Notebooks are in the [examples](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/tree/master/examples) folder:
@@ -26,7 +26,7 @@ Vowel speech recognition using regression of an indicator matrix, linear/quadrat
 Comparing patterns of bone mineral density relative change for men and women using smoothing splines.
 
 ![alt](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/images/bone.png)
-### [examples/Air Pollution Data.ipynb](https://nbviewer.jupyter.org/github/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/Air%20Pollution.ipynb)
+### [examples/Air Pollution Data.ipynb](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/Air%20Pollution.ipynb)
 Analysing Los Angeles pollution data using smoothing splines.
 
 ![alt](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/images/ozone_vs_pressure_gradient.png)
@@ -48,6 +48,7 @@ Detecting email spam using logistic regression, generalized additive logistic mo
 ![alt](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/images/spam.png)
 ### [examples/California Housing.ipynb](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/California%20Housing.ipynb)
 Analysing the factors influencing California houses prices using boosting over decision trees and partial dependance plots.
+
 ![alt](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/images/california.png)
 
 ### [examples/Demographics.ipynb](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/Demographics.ipynb)
@@ -84,7 +85,24 @@ Recognizing wave classes using linear, quadratic, flexible (over MARS regression
 
 ![alt](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/images/waveform.png)
 
+### [examples/Protein Flow-Cytometry.ipynb](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/Protein%20Flow%20Cytometry.ipynb)
+Analysing protein flow-cytometry data using graphical-lasso undirected graphical model for continuous variables. 
+
+![alt](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/images/cytometry.png)
+
 ### [examples/SRBCT Microarray.ipynb](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/SRBCT%20Microarray.ipynb)
-Analyze microarray data of 2308 genes and select the most significant genes for cancer classification using nearest shrunken centroids. 
+Analysing microarray data of 2308 genes and selecting the most significant genes for cancer classification using nearest shrunken centroids. 
 
 ![alt](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/images/srbct.png)
+
+### [examples/14 Cancer Microarray.ipynb](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/14%20Cancer.ipynb)
+Analysing microarray data of 16,063 genes gathered by Ramaswamy et al. (2001) and selecting the most significant genes for cancer classification using nearest shrunken centroids, L2-penalized discriminant analysis, support vector classifier, k-nearest neighbors, L2-penalized multinominal, L1-penalized multinominal and elastic-net penalized multinominal. It is a difficult classification problem with p>>N (only 144 training observations).
+
+### [examples/Skin of the Orange.ipynb](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/Skin%20of%20the%20Orange.ipynb)
+Solving a synthetic classification problem using Support Vector Machines and multivariate adaptive regression splines to show the influence of additional noise features.
+
+### [examples/Radiation Sensitivity.ipynb](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/examples/Radiation%20Sensitivity.ipynb)
+Assessing the significance of 12,625 genes from microarray study of radiation sensitivity using Benjamini-Hochberg method and the significane analysis of microarrays (SAM) approach.
+
+![alt](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks/blob/master/images/radiation.png)
+
